@@ -12,6 +12,7 @@ namespace App1_treinamentos
         public MainPage()
         {
             InitializeComponent();
+
         }
     }
 }

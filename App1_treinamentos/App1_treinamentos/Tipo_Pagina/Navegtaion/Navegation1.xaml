@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1_treinamentos.Tipo_Pagina.Navegtaion.Navegation1"
+             Title="Titulo da Navigatiom"
+             >
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Pesquisar" Icon="play.png"/>
+        <ToolbarItem Text="Detalhes" Icon="play2.png"/>
+        <ToolbarItem Text="Ordenar"/>
+        <ToolbarItem Text="Expludir"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <Label Text="Nav 1!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button  Text="Ir  para Página 2" Clicked="Mudapg2"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

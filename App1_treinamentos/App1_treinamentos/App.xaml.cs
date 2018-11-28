@@ -11,7 +11,8 @@ namespace App1_treinamentos
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new App1_treinamentos.Tipo_Pagina.Carrossel.Page3();
+
         }
 
         protected override void OnStart()
