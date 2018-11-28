@@ -8,7 +8,7 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Pesquisar" Icon="play.png"/>
         <ToolbarItem Text="Detalhes" Icon="play2.png"/>
-        <ToolbarItem Text="Ordenar"/>
+        <ToolbarItem Text="Ordenar" /> 
         <ToolbarItem Text="Expludir"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
