@@ -23,5 +23,11 @@ namespace App1_treinamentos.Tipo_Pagina.Navegtaion
 
 
         }
+        private void ChamarModal(object sender, EventArgs args)
+        {
+
+            Navigation.PushAsync(new Modal());
+        }
+
     }
 }

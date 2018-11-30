@@ -16,5 +16,12 @@ namespace App1_treinamentos.Tipo_Pagina.Navegtaion
 		{
 			InitializeComponent ();
 		}
-	}
+        private void FecharModal(object sender, EventArgs args)
+        {
+            Navigation.PopModalAsync();
+            //fechar a modal
+
+        }
+
+    }
 }
