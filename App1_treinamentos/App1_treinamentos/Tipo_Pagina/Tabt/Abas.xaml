@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:nav="clr-namespace:App1_treinamentos.Tipo_Pagina.Navegtaion"
+             x:Class="App1_treinamentos.Tipo_Pagina.Tabt.Abas">
+  
+    <NavigationPage Title="Item 1.2">
+        <x:Arguments>
+            <nav:Navegation1/>
+        </x:Arguments>
+    </NavigationPage>
+
+    <nav:Navegation2/>
+  
+
+</TabbedPage>

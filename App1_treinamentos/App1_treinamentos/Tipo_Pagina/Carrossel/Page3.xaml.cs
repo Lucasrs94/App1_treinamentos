@@ -21,7 +21,8 @@ namespace App1_treinamentos.Tipo_Pagina.Carrossel
         private void MudarPagina(object sender, EventArgs args)
         {
             // Significar para ir proxima paginas
-            App.Current.MainPage = new NavigationPage(new Navegtaion.Navegation1());
+            // App.Current.MainPage = new NavigationPage(new Navegtaion.Navegation1());
+            App.Current.MainPage = new Tabt.Abas();
         }
     }
 }
