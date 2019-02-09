@@ -11,7 +11,7 @@ namespace App1_treinamentos
         {
             InitializeComponent();
 
-            MainPage = new App1_treinamentos.Tipo_Pagina.Carrossel.Page3();
+            MainPage = new App1_treinamentos.Tipo_Pagina.Tabt.Abas();
 
         }
 

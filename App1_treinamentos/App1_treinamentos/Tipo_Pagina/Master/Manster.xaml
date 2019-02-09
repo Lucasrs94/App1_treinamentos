@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:manster="clr-namespace:App1_treinamentos.Tipo_Pagina.Master"
+             x:Class="App1_treinamentos.Tipo_Pagina.Master.Manster">
+    <MasterDetailPage.Master>
+        <!--Menu-->
+        <ContentPage Title="Menu">
+            <StackLayout>
+                <Button Text="Pagina1" BackgroundColor="Green" Clicked="MudarPagina1"/>
+                <Button Text="Pagina2" BackgroundColor="blue"  Clicked="MudarPagina2"/>
+                <Button Text="Pagina3" BackgroundColor="Orange" Clicked="MudarPagina3"/>
+            </StackLayout>
+            </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <!--conteudo-->
+            <manster:Conteudo/>
+    </MasterDetailPage.Detail>
+         +
+</MasterDetailPage>
