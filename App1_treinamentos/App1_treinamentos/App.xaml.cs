@@ -5,7 +5,7 @@ using Xamarin.Forms.Xaml;
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace App1_treinamentos
 {
-    //lucas 
+    //lucas --reis
     public partial class App : Application
     {
         public App()
